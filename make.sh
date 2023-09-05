@@ -39,7 +39,7 @@ PLAT_UBOOT_SIZE=
 PLAT_TRUST_SIZE=
 PLAT_TYPE="RKFW" # default
 
-SRCTREE=``
+SRCTREE=${PWD}
 SCRIPT_FIT="${SRCTREE}/scripts/fit.sh"
 
 SCRIPT_ATF="${SRCTREE}/scripts/atf.sh"
